@@ -1,0 +1,23 @@
+{"intents": [
+        {"tag": "Sabah",
+         "patterns": ["Sabah", "Sabahda ne yiyebilirim", "Sabah icin ne tavsiye edebilirsiniz", "Sabahda kalp icin ne fayda", "Kalp hastaligi olmamak icin Sabahda ne yiyebilirim", "Sabah"],
+         "responses": ["ballı sarımsaklı ilaç", "acıkınca limon su­yu", "greyfurt su­yu"],
+         "context_set": ""
+        },
+        {"tag": "Öğlen",
+        "patterns": ["Öğlen", "Öğlenda ne yiyebilirim", "Öğlen icin ne tavsiye edebilirsiniz", "Öğlenda kalp icin ne fayda", "Kalp hastaligi olmamak icin Öğlenda ne yiyebilirim", "Öğlen"],
+         "responses": ["salata veya yoğurt ile 1 çeşit yemek yenir", "Yemekle beraber veya yemekten sonra 1 - 3 diş sarımsak yutulur.", "Sa­rımsak yerine çiğ soğan da yenebilir."],
+         "context_set": ""
+        },
+        {"tag": "Akşam",
+        "patterns": ["Akşam", "Akşamda ne yiyebilirim", "Akşam icin ne tavsiye edebilirsiniz", "Akşamda kalp icin ne fayda", "Kalp hastaligi olmamak icin Akşamda ne yiyebilirim", "Akşam"],
+         "responses": ["1-3 diş sarımsak yutulur", "incir, hurma ve­ya karpuz yenir"],
+         "context_set": ""
+        },
+        {"tag": "Uykudan önce",
+        "patterns": ["Uykudan önce", "Uykudan önce ne yiyebilirim", "Uykudan önce zamani icin ne tavsiye edebilirsiniz", "Uykudan önce kalp icin ne fayda", "Kalp hastaligi olmamak icin Uykudan önce ne yiyebilirim", "Uykudan önce"],
+         "responses": ["30 gr sarımsaklı zeytinyağı", "30 gr. limon suyu içilir.", "30 gr sarımsaklı zeytinyağı + 30 gr. limon suyu içilir."],
+         "context_set": ""
+        }
+   ]
+}
