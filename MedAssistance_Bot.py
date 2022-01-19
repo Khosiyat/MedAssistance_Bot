@@ -67,7 +67,7 @@ except:
   out_empty=[0 for _ in range(len(labelUnit))]
 
 
-  for data, text in enumerate(docX):
+  for data, text in enumerate(text_X):
       bag=[]
 
       tokenized_word=[stemmer.stem(word.lower()) for word in text]
@@ -79,7 +79,7 @@ except:
             bag.append(0)
 
       output_row=out_empty[:]
-      output_row[labelUnit.index (docY[data])]=1
+      output_row[labelUnit.index (text_Y[data])]=1
 
       trained_data.append(bag)
       output_data.append(output_row)
